@@ -3,7 +3,44 @@
 {% block title %}Home{% endblock %}
 {% block body %}
 <div class="jumbotron">
-    <h1>The home page</h1>
+    <h1>I love to code</h1>
     <p class="lead">You can learn more about my website here</p>
 </div>
+<div class="row image">
+    <div class="col-md-12">
+        <div class='col-md-12'>
+            <div id="banner">
+                <picture>
+                    <source media="(min-width: 480px)" srcset="{{ url_for('static', filename='images/top2-header-1.png') }}">
+                    <source srcset="{{ url_for('static', filename='images/top2-header.png') }}">
+                    <img src="{{ url_for('static',filename='images/top2-header.png') }}" >
+                </picture>
+
+            </div>
+    </div>
+</div>
+
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="item">
+            <h2>Python</h2>
+            <p>Programming with Python & Flask</p>
+        </div>
+
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="item">
+            <h2>ASP.Net</h2>
+            <p>Knowledge about ASP.Net</p>
+        </div>
+
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-3">
+        <div class="item" >
+            <h2>ioNic</h2>
+            <p>ioNic mobile application</p>
+        </div>
+    </div>
+
+
+
 {% endblock %}
