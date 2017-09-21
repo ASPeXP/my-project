@@ -33,11 +33,13 @@ def login():
 def aspnet():
     return render_template('aspnet.html')
 
+
 @app.route('/ionic')
 def ionic():
     return render_template('ionic.html')
 
-@app.route('python')
+
+@app.route('/python')
 def python():
     return render_template('python.html')
 
