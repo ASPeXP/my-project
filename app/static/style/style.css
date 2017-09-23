@@ -35,3 +35,55 @@
 			padding: 5px;
 			margin: 5px;
 		}
+
+$gray: #EEEEEE;
+$white: #FFFFFF;
+
+body {
+  background-color: $white;
+
+}
+
+#main-div {
+  background-color: $gray;
+   margin: 5% 5% 5% 1%;
+  padding-top: 5%;
+  border-radius: 1%;
+}
+
+hr {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.big_image{
+  background-color: $white;
+  align: center;
+  margin: 1.5% 3% 3% 3%;
+  border-radius: 1%;
+}
+
+
+.blue-bg {
+    color: white;
+    background-color: blue;
+}
+
+.green-bg {
+    color: white;
+    background-color: green;
+}
+
+.yellow-bg {
+
+    background-color: yellow;
+}
+
+#bio-text,#link-to-page {
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 20px;
+}
+.figure-text {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}

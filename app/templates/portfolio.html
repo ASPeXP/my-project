@@ -4,6 +4,47 @@
 {% block body %}
     <div class="jumbotron">
         <h1>The Portfolio page</h1>
-        <p class="lead">You can learn more about my website here</p>
+        <p class="lead">You can learn more about my life here</p>
     </div>
+
+<div id='main-div'>
+<div class="text-center">
+<h1>Prapath Suayroop</h1>
+<h3>An ordinary man who love to code</h3>
+</div>
+
+  <div class='row big_image'>
+    <div class='col-md-12' align='center'>
+    <img src="{{ url_for('static',filename='images/prapathsitwithlaptop.jpg') }}" class='img-responsive'>
+
+    </div>
+    <div class='col-md-12 text-center figure-text' >
+     Prapath Sit in front of his laptop in some quiet Friday evening at The Street Ratchada
+    </div>
+  </div>
+
+  <div id='bio-text'>
+    <h4>Here's timeline of Prapath:</h4>
+    <ul>
+      <li><b></b> Born in Nakornpanom province Thailand on 15 April 1973</li>
+      <li><b></b> Attended Soonthornvichit primary school in Nakornpanom</li>
+      <li><b></b> Study at Electronic computer in Mahasarakham teacher college</li>
+       <li><b></b> Study at Computer Education in Rajabhat Institue of Chandrakasem, Bangkok. Thailand.</li>
+      <li><b></b> Study at Business Software Development in Chulalongkorn University. Bangkok. Thailand.</li>
+        <li><b></b> Study at Web engineering in Dhurakij Phundit University. Bangkok. Thailand.</li>
+    </ul>
+  </div>
+
+  <div id='link-to-page'>
+    <h4>
+      If you have time, you may need to know me more on my <a href='https://www.linkedin.com/in/prapaths/' target='_blank'>Linkedin</a>
+    </h4>
+  </div>
+<br/>
+</div>
+
+  <hr/>
+  <div class='footer text-center'>
+    Writen and code by <a href='https://codepen.io/aspexp/pen/yzaWmw' targat='_blank'>Prapath Suayroop</a>
+
 {% endblock %}
