@@ -28,3 +28,18 @@ def about():
 def login():
     return render_template('login.html')
 
+
+@app.route('/aspnet')
+def aspnet():
+    return render_template('aspnet.html')
+
+
+@app.route('/ionic')
+def ionic():
+    return render_template('ionic.html')
+
+
+@app.route('/python')
+def python():
+    return render_template('python.html')
+
