@@ -78,7 +78,7 @@ hr {
     background-color: yellow;
 }
 
-#bio-text,#link-to-page {
+#bio-text,#link-to-page,#playground-text {
   margin-left: 30%;
   margin-right: 30%;
   margin-bottom: 20px;
